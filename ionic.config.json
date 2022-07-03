@@ -1,0 +1,7 @@
+{
+  "name": "DI-GImons",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
