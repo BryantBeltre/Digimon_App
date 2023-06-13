@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Todos los digimons</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-card *ngFor="let di of getonedigi">
+    <img class = img src="{{di.img}}" />
+    <ion-card-header>
+      <ion-card-title><b>Digimons</b></ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      
+      
+
+      <ion-item>
+        <ion-label><h2>Nombre:</h2></ion-label>
+        {{di.name}}
+      </ion-item>
+      <ion-item>
+        <ion-label><h2>Nivel:</h2></ion-label>
+        {{di.level}}
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

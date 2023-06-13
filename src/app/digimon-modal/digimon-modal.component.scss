@@ -1,0 +1,15 @@
+ion-menu-button {
+    color: var(--ion-color-primary);
+  }
+  ion-toolbar{
+    --background: rgb(254,245,44);
+    --background: linear-gradient(90deg, rgba(254,245,44,1) 2%, rgba(255,249,34,1) 11%, rgba(154,154,34,0.4990371148459384) 100%);
+  }  
+  ion-card{
+    background: rgb(45,250,251);
+    background: linear-gradient(90deg, rgba(45,250,251,0.8519782913165266) 23%, rgba(34,196,247,1) 41%, rgba(15,169,255,1) 72%, rgba(21,65,236,1) 97%);
+  }
+
+  ion-content{
+    --background: url('../../assets/img/digimon.jpg');
+  }

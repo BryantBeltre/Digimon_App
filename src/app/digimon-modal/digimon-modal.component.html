@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title></ion-title>
+    <ion-buttons slot="end">
+      <ion-button color="primary" (click)="cerrarM()">Cerrar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>  
+  <ion-card *ngFor="let ii of list">
+    <ion-card-header>
+      <img src="{{ii.img}}" alt="">
+      <ion-card-title>{{ii.name}}</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-item>
+        <ion-label>
+          Level:
+        </ion-label>
+        {{ii.level}}
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

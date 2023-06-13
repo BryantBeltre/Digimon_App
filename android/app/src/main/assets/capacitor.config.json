@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "DI-GImons",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

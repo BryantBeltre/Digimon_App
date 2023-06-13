@@ -1,5 +1,19 @@
 ion-menu ion-content {
-  --background: var(--ion-item-background, var(--ion-background-color, #fff));
+  --background: url(../assets/img/digimon.jpg);
+  background-repeat:no-repeat;
+  background: size cover;
+  --ion-item-background: var(--ion-background-color, transparent) ;
+}
+
+ion-list-header{
+  color: rgb(255, 251, 0);
+}
+ion-label{
+  color: rgb(252, 84, 84);
+}
+
+ion-item{
+  color: orangered;
 }
 
 ion-menu.md ion-content {
@@ -47,6 +61,7 @@ ion-menu.md ion-item {
   --padding-start: 10px;
   --padding-end: 10px;
   border-radius: 4px;
+ 
 }
 
 ion-menu.md ion-item.selected {
@@ -58,11 +73,12 @@ ion-menu.md ion-item.selected ion-icon {
 }
 
 ion-menu.md ion-item ion-icon {
-  color: #616e7e;
+  color: orangered;
 }
 
 ion-menu.md ion-item ion-label {
   font-weight: 500;
+  
 }
 
 ion-menu.ios ion-content {
@@ -82,6 +98,7 @@ ion-menu.ios ion-item {
   --padding-start: 16px;
   --padding-end: 16px;
   --min-height: 50px;
+  
 }
 
 ion-menu.ios ion-item.selected ion-icon {
